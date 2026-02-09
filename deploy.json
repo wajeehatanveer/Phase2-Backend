@@ -1,0 +1,9 @@
+{
+  "service": "backend",
+  "directory": "./backend",
+  "start_command": "sh start.sh",
+  "build_command": "sh build.sh",
+  "env": {
+    "PYTHON_VERSION": "3.11.5"
+  }
+}

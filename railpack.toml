@@ -1,0 +1,13 @@
+# Railpack configuration
+[build]
+  # Specify the directory to build
+  directory = "backend"
+  
+[deploy]
+  # Specify the command to start the application
+  start_command = "python3 -m uvicorn main:app --host 0.0.0.0 --port $PORT"
+  working_directory = "backend"
+
+[env]
+  # Python version to use
+  PYTHON_VERSION = "3.11.5"
